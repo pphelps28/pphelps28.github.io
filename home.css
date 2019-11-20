@@ -70,3 +70,20 @@ a{
     margin-top: 0vh;
     margin-left:5vw;
 }
+#homewrapper{
+    grid-area: 2/2/4/4;
+    order:1;
+}
+#hometext{
+    display: flex;
+    background:black;
+    order: 0;
+    font-size:4.0vw;
+    background-color:transparent;
+    color: rgb(189, 189, 143);
+}
+#hometext>div{
+display: flex;
+
+}
+
