@@ -86,4 +86,26 @@ a{
 display: flex;
 
 }
+@media (max-width:450px){
 
+#thumbnail{
+    align-self: center;
+    text-align: center;
+    font-size: x-small;
+    padding:10px;    
+}
+#hometext{
+    background:black;
+    order: 1;
+    font-size:6.0vw;
+    justify-self: right;
+    background-color:transparent;
+    color: rgb(189, 189, 143);
+    }
+#homewrapper{
+    grid-area: 2/2/4/5;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+}

@@ -2,6 +2,7 @@ body{
     padding:0px;
     margin:0px;
     border:0px;
+    background-color: black;
 }
 a:link{
     color:#7e7c7c;
@@ -21,10 +22,18 @@ a{
     grid-template-rows: repeat(4,1fr);
     width: 100vw;
     height:100vh;
-    background:black;
+    background-color:black;
     color:#7e7c7c;
     background-image: url(""),black;
     background-size: cover;
+}
+#navbar{
+    display:grid;
+    grid-area: 1/1/5/2;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 #titlebox{
     display:flex;
@@ -39,9 +48,9 @@ a{
 }
 
 #linkbar{
-    display:flex;
     grid-area: 2/1/4/2;
-    justify-content: flex-start;
+    display:flex;
+    justify-content: space-evenly;
 }
 
 #links{
@@ -117,4 +126,53 @@ a{
 align-self: center;
 font-size: 5vw;
 color: rgb(189, 189, 114);
+}
+.subtitle{
+    visibility: hidden;
+}
+
+@media (max-width:450px){
+    #navbar{
+        position:fixed
+    }
+#thumbnail{  
+    align-self: center;
+    text-align: center;
+    font-size: x-small;
+    padding:10px; 
+    }
+    #thumbnailwrapper{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #titlex{
+        font-size: x-large;
+    }
+#titlewrapper{
+    display: flex;
+    margin-left:1vw;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+#pagetitle{
+    font-size:x-large;
+}
+#mainbody{
+    margin-top:0vh;
+    display: flex;
+    justify-content: center;
+}
+.project{
+    margin:4vw;
+    }
+#mainbody>.project>a>img{
+        width:40vw;
+        height:40vw;
+    }
+.subtitle{
+    visibility: visible;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 50px;
+}
 }
