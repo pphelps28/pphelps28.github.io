@@ -144,9 +144,14 @@ color: rgb(189, 189, 114);
     #thumbnailwrapper{
         display:grid;
         grid-template-columns: repeat(4,1fr);
+        visibility: hidden
     }
-    #titlex{
+    #title{
         font-size: x-large;
+        margin-bottom: 0px;
+    }
+    #titlebox{
+        padding-bottom:0px;
     }
 #titlewrapper{
     display: flex;
