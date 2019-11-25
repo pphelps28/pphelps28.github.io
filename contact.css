@@ -3,6 +3,10 @@ body{
     margin:0px;
     border:0px;
 }
+em{
+    color:rgb(187, 187, 68);
+    font-style: normal;
+}
 a:link{
     color:#7e7c7c;
 
@@ -23,8 +27,7 @@ a{
     height:100vh;
     background:black;
     color:#7e7c7c;
-    background-image: url(""),black;
-    background-size: cover;
+    background-image: url(/images/PortfolioBackground.svg);
 }
 #titlebox{
     display:flex;
@@ -71,7 +74,6 @@ a{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRR_cO0iYjbyjfmy6R3X9ZsUqR8JXhcFiMwhMOA15ajEysZv-27');
 }
 #mainbody{
     margin-left:15vw;

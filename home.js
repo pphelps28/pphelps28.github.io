@@ -3,8 +3,8 @@ $(document).ready(function () {
     $("#title").hide().delay().slideDown();
     $('#mainbody').hide().fadeIn(1000);
     $('#hometext').hide().delay(1000).slideDown();
-    $("#links").hide().delay(1500).slideDown();
-    $("#thumbnail").hide().delay(2000).fadeIn();
+    $("#links").hide().delay(2000).slideDown();
+    $("#thumbnail").hide().delay(1500).fadeIn();
 })
 
 
